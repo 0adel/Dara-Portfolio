@@ -1,0 +1,39 @@
+/*  MAIN COLOR THEME  */
+:root {
+    --primary-color: #FFFFFF;     /* White */
+    --secondary-color: #16285b;   /* Blue          Original Blue: ##007BFF  */
+    --tertiary-color: #917C44;    /* Gold          Original Gold: ##FFD700  */
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+
+    background-image: url('../images/Instrument-Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-custom-blue {
+    background-color: #0e3a52;
+}
+
+
+/*   TABLET  */
+@media (max-width: 768px) {
+    header {
+        padding: 10px; 
+        font-size: 3.5rem;
+    }
+}
+
+/*   MOBILE  */
+@media (max-width: 576px) {
+    header {
+        padding: 5px; 
+        font-size: 2.5rem;
+    }
+}
