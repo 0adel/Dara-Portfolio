@@ -1,0 +1,15 @@
+/*   TABLET  */
+@media (max-width: 768px) {
+    header {
+        padding: 10px; 
+        font-size: 3.5rem;
+    }
+}
+
+/*   MOBILE  */
+@media (max-width: 576px) {
+    header {
+        padding: 5px; 
+        font-size: 2.5rem;
+    }
+}
